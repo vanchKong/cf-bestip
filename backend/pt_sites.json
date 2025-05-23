@@ -1,0 +1,1477 @@
+{
+	"sites": [
+		{
+			"name": "UB",
+			"domains": [
+				{
+					"domain": "ubits.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.ubits.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "织梦",
+			"domains": [
+				{
+					"domain": "zmpt.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "zmpt.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "馒头",
+			"domains": [
+				{
+					"domain": "m-team.cc",
+					"is_cf": true
+				},
+				{
+					"domain": "kp.m-team.cc",
+					"is_cf": true
+				},
+				{
+					"domain": "zp.m-team.io",
+					"is_cf": true
+				},
+				{
+					"domain": "rss.m-team.cc",
+					"is_cf": true
+				},
+				{
+					"domain": "ticket.m-team.io",
+					"is_cf": true
+				},
+				{
+					"domain": "kp.m-team.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.m-team.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "春天",
+			"domains": [
+				{
+					"domain": "springsunday.net",
+					"is_cf": true
+				},
+				{
+					"domain": "hdcmct.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "on.springsunday.net",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "听听歌",
+			"domains": [
+				{
+					"domain": "totheglory.im",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.totheglory.im",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "天空",
+			"domains": [
+				{
+					"domain": "hdsky.me",
+					"is_cf": true
+				},
+				{
+					"domain": "hdsky.my",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdsky.me",
+					"is_cf": false
+				},
+				{
+					"domain": "tracker.hdsky.my",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "彩虹岛",
+			"domains": [
+				{
+					"domain": "ptchdbits.co",
+					"is_cf": true
+				},
+				{
+					"domain": "chdbits.xyz",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.ptchdbits.co",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.rainbowisland.co",
+					"is_cf": false
+				},
+				{
+					"domain": "chdbits.xyz",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "猫",
+			"domains": [
+				{
+					"domain": "pterclub.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.pterclub.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "观众",
+			"domains": [
+				{
+					"domain": "audiences.me",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.audiences.me",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.cinefiles.info",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "憨憨",
+			"domains": [
+				{
+					"domain": "hhanclub.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hhanclub.top",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.hhan.club",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "OurBits",
+			"domains": [
+				{
+					"domain": "ourbits.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ourbits.club",
+					"is_cf": true
+				},
+        {
+          "domain": "pt.ourhelp.club",
+          "is_cf": true
+        }
+			]
+		},
+		{
+			"name": "朋友",
+			"domains": [
+				{
+					"domain": "pt.keepfrds.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.keepfrds.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "家园",
+			"domains": [
+				{
+					"domain": "hdhome.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.hdhome.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "杜比",
+			"domains": [
+				{
+					"domain": "www.hddolby.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.hddolby.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "好大",
+			"domains": [
+				{
+					"domain": "hdarea.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdarea.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "学校",
+			"domains": [
+				{
+					"domain": "pt.btschool.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.btschool.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "猪猪",
+			"domains": [
+				{
+					"domain": "piggo.me",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.piggo.me",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "青蛙",
+			"domains": [
+				{
+					"domain": "qingwapt.com",
+					"is_cf": true
+				},
+				{
+					"domain": "www.qingwapt.com",
+					"is_cf": true
+				},
+				{
+					"domain": "www.qingwapt.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.qingwa.pro",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.qingwapt.org",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.qingwapt.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "劳改所",
+			"domains": [
+				{
+					"domain": "ptlgs.org",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ptlgs.org",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "大青虫",
+			"domains": [
+				{
+					"domain": "cyanbug.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.cyanbug.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "柠檬",
+			"domains": [
+				{
+					"domain": "lemonhd.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker01.ilovelemonhd.me",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "PTT",
+			"domains": [
+				{
+					"domain": "www.pttime.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.pttime.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "蟹黄堡",
+			"domains": [
+				{
+					"domain": "crabpt.vip",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "crabpt.vip",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "HDTIME",
+			"domains": [
+				{
+					"domain": "hdtime.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdtime.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "咖啡",
+			"domains": [
+				{
+					"domain": "ptcafe.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.ptcafe.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "末日",
+			"domains": [
+				{
+					"domain": "www.agsvpt.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "agsvpt.trackers.work",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.agsvpt.work",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.agsvpt.com",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.agsvpt.cn",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "库非",
+			"domains": [
+				{
+					"domain": "kufei.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "kufei.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "聆音",
+			"domains": [
+				{
+					"domain": "pt.soulvoice.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.soulvoice.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "朱雀",
+			"domains": [
+				{
+					"domain": "zhuque.in",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.zhuque.in",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "烧包",
+			"domains": [
+				{
+					"domain": "ptsbao.club",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ptsbao.club",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "红豆饭",
+			"domains": [
+				{
+					"domain": "hdfans.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "hdfans.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "熊猫",
+			"domains": [
+				{
+					"domain": "pandapt.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pandapt.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "麒麟",
+			"domains": [
+				{
+					"domain": "www.hdkyl.in",
+					"is_cf": true
+				},
+				{
+					"domain": "cf.hdkylin.com",
+					"is_cf": true
+				},
+				{
+					"domain": "na.hdkylin.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdkyl.in",
+					"is_cf": true
+				},
+				{
+					"domain": "www.hdkylin.top",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "皇后",
+			"domains": [
+				{
+					"domain": "open.cd",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.open.cd",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "唐门",
+			"domains": [
+				{
+					"domain": "tmpt.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tmpt.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "财神",
+			"domains": [
+				{
+					"domain": "cspt.top",
+					"is_cf": false
+				},
+				{
+					"domain": "cspt.cc",
+					"is_cf": false
+				},
+				{
+					"domain": "cspt.date",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.cspt.top",
+					"is_cf": false
+				},
+				{
+					"domain": "tracker.cspt.cc",
+					"is_cf": false
+				},
+				{
+					"domain": "tracker.cspt.date",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "星陨阁",
+			"domains": [
+				{
+					"domain": "xingyunge.top",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.xingyunge.top",
+					"is_cf": false
+				},
+				{
+					"domain": "tracker.xingyunge.sbs",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "影",
+			"domains": [
+				{
+					"domain": "star-space.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "star-space.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "雨",
+			"domains": [
+				{
+					"domain": "raingfh.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "raingfh.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "UltraHD",
+			"domains": [
+				{
+					"domain": "ultrahd.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ultrahd.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "Sunny",
+			"domains": [
+				{
+					"domain": "sunnypt.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "sunnytk.top",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.sunnypt.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "TLF",
+			"domains": [
+				{
+					"domain": "pt.eastgame.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.eastgame.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "肉丝",
+			"domains": [
+				{
+					"domain": "rousi.zip",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.rousipt.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "象岛",
+			"domains": [
+				{
+					"domain": "ptvicomo.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.ptvicomo.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "爱萝莉",
+			"domains": [
+				{
+					"domain": "share.ilolicon.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "share.ilolicon.com",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.ilolicon.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "ICC",
+			"domains": [
+				{
+					"domain": "www.icc2022.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.icc2022.xyz",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker1.icc2022.de",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "北洋园",
+			"domains": [
+				{
+					"domain": "tjupt.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker-public.tjupt.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "莫妮卡",
+			"domains": [
+				{
+					"domain": "monikadesign.uk",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "anime-no-index.com",
+					"is_cf": true
+				},
+				{
+					"domain": "daikirai.monikadesign.uk",
+					"is_cf": true
+				},
+				{
+					"domain": "daisuki.monikadesign.uk",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker.monikadesign.uk",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "杏",
+			"domains": [
+				{
+					"domain": "xingtan.one",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "xingtan.one",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "城市",
+			"domains": [
+				{
+					"domain": "hdcity.city",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "sync.leniter.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "海胆",
+			"domains": [
+				{
+					"domain": "www.haidan.video",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "announce.haidan.video",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "海棠",
+			"domains": [
+				{
+					"domain": "www.htpt.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.htpt.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "1PT",
+			"domains": [
+				{
+					"domain": "1ptba.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "1ptba.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "52PT",
+			"domains": [
+				{
+					"domain": "52pt.site",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "52pt.site",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "自由农场",
+			"domains": [
+				{
+					"domain": "pt.0ff.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.0ff.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "TCCF",
+			"domains": [
+				{
+					"domain": "et8.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.et8.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "FSM",
+			"domains": [
+				{
+					"domain": "fsm.name",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "connects.icu",
+					"is_cf": true
+				},
+				{
+					"domain": "nextpt.net",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "好多油",
+			"domains": [
+				{
+					"domain": "pt.upxin.net",
+					"is_cf": false
+				},
+				{
+					"domain": "pt.hdupt.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.upxin.net",
+					"is_cf": false
+				},
+				{
+					"domain": "pt.hdupt.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "悟空",
+			"domains": [
+				{
+					"domain": "wukongwendao.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "wukongwendao.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "OKPT",
+			"domains": [
+				{
+					"domain": "www.okpt.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.okpt.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "OShenPT",
+			"domains": [
+				{
+					"domain": "www.oshen.win",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.oshen.win",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "HDClone",
+			"domains": [
+				{
+					"domain": "pt.hdclone.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdclone.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "CDFile",
+			"domains": [
+				{
+					"domain": "pt.cdfile.org",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.cdfile.org",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "百川",
+			"domains": [
+				{
+					"domain": "www.hitpt.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hitpt.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "AFun",
+			"domains": [
+				{
+					"domain": "ptlover.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.ptlover.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "PTFans",
+			"domains": [
+				{
+					"domain": "ptfans.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ptfans.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "北邮人",
+			"domains": [
+				{
+					"domain": "byr.pt",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.byr.pt",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "PTZone",
+			"domains": [
+				{
+					"domain": "www.ptzone.xyz",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ptzone.xyz",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "PTGTK",
+			"domains": [
+				{
+					"domain": "pt.gtk.pw",
+					"is_cf": true
+				},
+				{
+					"domain": "pt.gtkpw.xyz",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "pt.gtkpw.xyz",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "GGPT",
+			"domains": [
+				{
+					"domain": "www.gamegamept.com",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.gamegamept.com",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "Playlet",
+			"domains": [
+				{
+					"domain": "playletpt.xyz",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "playletpt.xyz",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "Tokyo",
+			"domains": [
+				{
+					"domain": "www.tokyopt.xyz",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.tokyopt.xyz",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "Jpop",
+			"domains": [
+				{
+					"domain": "jpopsuki.eu",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "jpopsuki.eu",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "52movie",
+			"domains": [
+				{
+					"domain": "www.52movie.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.52movie.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "蝶粉",
+			"domains": [
+				{
+					"domain": "discfan.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "discfan.xyz",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "HDBao",
+			"domains": [
+				{
+					"domain": "hdbao.cc",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.hdbao.cc",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "开心",
+			"domains": [
+				{
+					"domain": "www.joyhd.net",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ipv4.joyhd.net",
+					"is_cf": false
+				},
+				{
+					"domain": "ipv6.joyhd.net",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "老师",
+			"domains": [
+				{
+					"domain": "www.nicept.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.nicept.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "野马",
+			"domains": [
+				{
+					"domain": "www.yemapt.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.yemapt.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "伞",
+			"domains": [
+				{
+					"domain": "sanpro.pw",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "sanpro.pw",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "樱花",
+			"domains": [
+				{
+					"domain": "mckk88.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "mckk88.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "浦园",
+			"domains": [
+				{
+					"domain": "njtupt.top",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "njtupt.top",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "oldtoons",
+			"domains": [
+				{
+					"domain": "oldtoons.world",
+					"is_cf": false
+				}
+			],
+			"trackers": [
+				{
+					"domain": "oldtoons.world",
+					"is_cf": false
+				}
+			]
+		},
+		{
+			"name": "龙之家",
+			"domains": [
+				{
+					"domain": "www.dragonhd.xyz",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "www.dragonhd.xyz",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "铂金家",
+			"domains": [
+				{
+					"domain": "pthome.net",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "t.pthome.net",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "铂金学院",
+			"domains": [
+				{
+					"domain": "ptchina.org",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "ptchina.org",
+					"is_cf": true
+				}
+			]
+		},
+		{
+			"name": "红叶",
+			"domains": [
+				{
+					"domain": "leaves.red",
+					"is_cf": true
+				}
+			],
+			"trackers": [
+				{
+					"domain": "tracker.leaves.red",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker2.leaves.red",
+					"is_cf": true
+				},
+				{
+					"domain": "tracker3.leaves.red",
+					"is_cf": false
+				}
+			]
+		}
+	]
+}
