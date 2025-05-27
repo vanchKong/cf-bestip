@@ -260,9 +260,6 @@ load_pt_domains() {
 
 # 初始化环境
 init_setup() {
-    echo "作者：端端🐱/Gotchaaa，玩得开心～"
-    echo "感谢 windfree、tianting 帮助完善站点数据"
-    echo "使用姿势请查阅：https://github.com/vanchKong/cloudflare"
     
     # 检查并安装依赖
     check_dependencies
@@ -291,29 +288,6 @@ init_setup() {
     
     echo "✅ 已初始化 hosts 文件"
     
-    # 下载 CloudflareST
-    if [ ! -f "$CF_BIN" ]; then
-        arch=$(setup_arch)
-        [ "$arch" = "unsupported" ] && echo "不支持的架构" && exit 1
-        
-        filename="CloudflareST_linux_${arch}.tar.gz"
-        mirrors=(
-            "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
-            "https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
-            "https://ghfast.top/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
-            "https://ghproxy.net/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
-            "https://gh-proxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
-        )
-
-        for url in "${mirrors[@]}"; do
-            if wget --tries=2 --waitretry=1 --show-progress --timeout=20 -O "${CF_DIR}/$filename" "$url"; then
-                tar -zxf "${CF_DIR}/$filename" -C "$CF_DIR" && chmod +x "$CF_BIN"
-                rm "${CF_DIR}/$filename"
-                return 0
-            fi
-        done
-        echo "下载失败" && exit 1
-    fi
 }
 
 # 添加单个域名
@@ -433,12 +407,39 @@ list_domains() {
 
 # 执行优选并更新所有域名
 run_update() {
+    
+    # 下载 CloudflareST
+    if [ ! -f "$CF_BIN" ]; then
+        arch=$(setup_arch)
+        [ "$arch" = "unsupported" ] && echo "不支持的架构" && exit 1
+        
+        filename="CloudflareST_linux_${arch}.tar.gz"
+        mirrors=(
+            "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
+            "https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
+            "https://ghfast.top/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
+            "https://ghproxy.net/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
+            "https://gh-proxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.5/$filename"
+        )
+
+        for url in "${mirrors[@]}"; do
+            if wget --tries=2 --waitretry=1 --show-progress --timeout=20 -O "${CF_DIR}/$filename" "$url"; then
+                tar -zxf "${CF_DIR}/$filename" -C "$CF_DIR" && chmod +x "$CF_BIN"
+                rm "${CF_DIR}/$filename"
+                break
+            fi
+        done
+        
+        if [ ! -f "$CF_BIN" ]; then
+            echo "❌ CloudflareST 下载失败" && exit 1
+        fi
+    fi
     # 获取当前优选 IP
     local current_ip=$(get_current_ip)
     [ -z "$current_ip" ] && echo "❌ 未找到当前优选 IP" && exit 1
     
     echo "⏳ 开始优选测试..."
-    cd "$CF_DIR" && ./CloudflareST -dn 8 -tl 400 -sl 1
+    cd "$CF_DIR" && ./CloudflareST -dn 4 -tl 400 -sl 1
     
     # 获取新的优选 IP
     local best_ip=$(get_current_ip)
@@ -522,6 +523,11 @@ main() {
     
     # 检查配置文件是否存在
     check_config
+
+    echo "作者：端端🐱/Gotchaaa，玩得开心～"
+    echo "感谢 windfree、tianting 帮助完善站点数据"
+    echo "使用姿势请查阅：https://github.com/vanchKong/cloudflare"
+
     init_setup
     run_update
     ;;
